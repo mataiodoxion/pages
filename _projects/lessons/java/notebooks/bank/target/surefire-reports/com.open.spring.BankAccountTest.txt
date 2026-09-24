@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.open.spring.BankAccountTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in com.open.spring.BankAccountTest
+testMultipleAccounts(com.open.spring.BankAccountTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected:<100> but was:<0>
+	at com.open.spring.BankAccountTest.testMultipleAccounts(BankAccountTest.java:66)
+
+testPercentOfMax(com.open.spring.BankAccountTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Use assertEquals(expected, actual, delta) to compare floating-point numbers
+	at com.open.spring.BankAccountTest.testPercentOfMax(BankAccountTest.java:88)
+
+testDeposit(com.open.spring.BankAccountTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<55> but was:<0>
+	at com.open.spring.BankAccountTest.testDeposit(BankAccountTest.java:44)
+
+testTotalBalance(com.open.spring.BankAccountTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<50> but was:<0>
+	at com.open.spring.BankAccountTest.testTotalBalance(BankAccountTest.java:55)
+
+testHasReachedMax(com.open.spring.BankAccountTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.open.spring.BankAccountTest.testHasReachedMax(BankAccountTest.java:97)
+
+testAccountCount(com.open.spring.BankAccountTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.open.spring.BankAccountTest.testAccountCount(BankAccountTest.java:20)
+
+testAccountNames(com.open.spring.BankAccountTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Alice]> but was:<[]>
+	at com.open.spring.BankAccountTest.testAccountNames(BankAccountTest.java:34)
+
